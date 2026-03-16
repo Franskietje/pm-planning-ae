@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="nl">
 <head>
-<title>Alterexpo API test</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PM Planning</title>
 </head>
 <body>
+  <h1>PM Planning</h1>
+  <button id="testBtn">Test API</button>
+  <pre id="output"></pre>
 
-<h1>FileMaker test</h1>
-
-<button onclick="test()">Test API</button>
-
-<script>
-async function test(){
-  const r = await fetch("/api/test");
-  const data = await r.json();
-  console.log(data);
-}
-</script>
-
+  <script src="app.js"></script>
 </body>
 </html>
