@@ -3,7 +3,7 @@ document.getElementById("testBtn").addEventListener("click", async () => {
   output.textContent = "Bezig...";
 
   try {
-    const res = await fetch("https://api.pm-planning.alterexpo.be/test");
+    const res = await fetch("https://withered-feather-3456.sd-5bd.workers.dev/test");
     const data = await res.json();
     output.textContent = JSON.stringify(data, null, 2);
   } catch (err) {
