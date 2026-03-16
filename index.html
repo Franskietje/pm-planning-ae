@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alterexpo API test</title>
+</head>
+<body>
+
+<h1>FileMaker test</h1>
+
+<button onclick="test()">Test API</button>
+
+<script>
+async function test(){
+  const r = await fetch("/api/test");
+  const data = await r.json();
+  console.log(data);
+}
+</script>
+
+</body>
+</html>
