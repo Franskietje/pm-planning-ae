@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Planning Login</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="css/planning.css">
+</head>
+<body class="login-page">
+
+<div class="login-box">
+
+  <div class="login-title">
+    <img src="img/logo.svg" alt="logo">
+    Planning
+  </div>
+
+  <form id="loginForm">
+
+    <input
+      id="username"
+      name="username"
+      placeholder="Naam"
+      required
+    >
+
+    <input
+      id="password"
+      name="password"
+      type="password"
+      placeholder="Wachtwoord"
+      required
+    >
+
+    <button type="submit">Login</button>
+
+    <div id="error" class="login-error"></div>
+
+  </form>
+
+</div>
+
+<script src="js/app-config.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>

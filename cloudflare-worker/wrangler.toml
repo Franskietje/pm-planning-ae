@@ -1,0 +1,9 @@
+name = "pm-planning-ae"
+main = "worker.js"
+compatibility_date = "2026-03-16"
+
+[vars]
+FM_HOST = "https://fms.alterexpo.be"
+FM_DB = "Arnout"
+FM_VERSION = "vLatest"
+ALLOWED_ORIGINS = "https://franskietje.github.io"

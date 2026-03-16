@@ -1,0 +1,15 @@
+GitHub Pages URL (project):
+https://franskietje.github.io/pm-planning-ae/
+
+Cloudflare Worker URL:
+https://withered-feather-3456.sd-5bd.workers.dev/
+
+Frontend entry:
+https://franskietje.github.io/pm-planning-ae/login.html
+
+Deploy Worker:
+Zie cloudflare-worker/DEPLOY.md
+
+Lokaal testen:
+php -S localhost:8000
+http://localhost:8000/login.html
